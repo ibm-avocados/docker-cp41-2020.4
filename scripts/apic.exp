@@ -1,0 +1,10 @@
+#!/usr/bin/expect -f
+set timeout 20
+set kubecfg [lindex $argv 0]
+set ::env(KUBECONFIG) $kubecfg
+set pass [lindex $argv 1]
+puts $kubecfg
+spawn apicops password:reset-cloud-admin -n apic
+expect "*Please enter a new password:"
+send -- $pass\r
+expect eof

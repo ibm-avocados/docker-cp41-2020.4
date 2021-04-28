@@ -1,0 +1,13 @@
+PN_CSV=ibm-integration-platform-navigator.v4.1.1
+APIC_CSV=ibm-apiconnect.v2.1.3
+APIC_DP_CSV=datapower-operator.v1.2.3
+APPCONN_CSV=ibm-appconnect.v1.2.0
+APPCONN_COUCH_CSV=couchdb-operator.v1.4.3
+KAFKA_CSV=strimzi-cluster-operator.v0.22.1
+MQ_CSV=ibm-mq.v1.4.0
+TRADERLITE_CSV=traderlite-operator.v1.0.5
+TRADERLITE_OPERATOR_BUNDLE=quay.io/clouddragons/traderlite-operator-bundle:1.0.5
+#TRADERLITE_CSV=traderlite-operator.v0.1.2
+CS_CSV=ibm-common-service-operator.v3.6.4
+CS_ODLM_CSV=operand-deployment-lifecycle-manager.v1.4.3
+CS_NAMESPACE_CSV=ibm-namespace-scope-operator.v1.0.2

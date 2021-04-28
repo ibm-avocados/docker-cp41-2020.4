@@ -1,0 +1,5 @@
+username: student001
+email: student001@example.com
+first_name: Bailey
+last_name: Student
+password: mko04esZ
