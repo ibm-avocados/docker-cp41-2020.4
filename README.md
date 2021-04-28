@@ -20,8 +20,20 @@ Run via a `docker` `ENTRYPOINT` check: <https://phoenixnap.com/kb/docker-cmd-vs-
 
 **EXAMPLE**:
 ```bash
-docker run --entrypoint /scripts/run.sh quay.io/ibm-advocados/openshift-cli-base:4.5 "CLUSTER" "APIKEY" "ENTITLEMENT_KEY" "FRODO_LOCAL_IMAGE"
+docker run --entrypoint /scripts/run.sh quay.io/clouddragons/docker-cp4i-2020.4:latest  "CLUSTER" "APIKEY" "ENTITLEMENT_KEY" "FRODO_LOCAL_IMAGE"
 ```
+
+**PARAMETERS**
+
+| Name | Description |
+| ---  | :---------- |
+| CLUSTER | OpenShift cluster name or id |
+| APIKEY  | api key for OpenShift cluster account |
+| ENTITLEMENT_KEY |  Can be found [here](https://myibm.ibm.com/products-services/containerlibrary) |
+| FRODO_LOCAL_IMAGE | Image of Frodo Local app, defaults to quay.io/clouddragons/cp4i-workshop-mgr:2020.4 |
+
+
+
 
 ## License & Authors
 
