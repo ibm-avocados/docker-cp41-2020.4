@@ -1,4 +1,4 @@
-# docker knative install openshift
+# docker cp4i 2020.4  install openshift
 
 ## Scope
 
